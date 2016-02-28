@@ -8,23 +8,21 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="net.wrubleski.engg_fyc.Chem209">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CHEM 209 goes here."
-        android:padding="10dp"/>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:divider="#555555"
+        android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Periodic Table"
             android:onClick="periodicTable"
-            android:padding="10dp"/>
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <!-- TODO: Add ICE table solver, potential chart, kA chart (inlt) -->
     </LinearLayout>
 
 </RelativeLayout>
