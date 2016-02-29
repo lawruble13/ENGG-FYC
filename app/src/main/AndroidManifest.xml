@@ -16,16 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Chem209" />
-        <activity
-            android:name=".PeriodicTable"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_periodic_table"
-            android:parentActivityName=".Chem209"
-            android:theme="@style/FullscreenTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="net.wrubleski.engg_fyc.Chem209" />
-        </activity>
+        <activity android:name=".IceTableSolver"></activity>
     </application>
 
 </manifest>

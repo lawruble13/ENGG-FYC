@@ -11,15 +11,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
         android:divider="#555555"
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Periodic Table"
+            android:text="@string/periodictable"
             android:onClick="periodicTable"
-            android:padding="10dp"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/icetablesolver"
+            android:onClick="iceTableSolver"
+            android:padding="5dp"
             android:textSize="25sp"
             android:textStyle="bold"/>
         <!-- TODO: Add ICE table solver, potential chart, kA chart (inlt) -->

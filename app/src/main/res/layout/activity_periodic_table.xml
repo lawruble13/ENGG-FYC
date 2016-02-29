@@ -18,9 +18,8 @@
         android:adjustViewBounds="true"
         android:src="@drawable/periodictable"
         android:soundEffectsEnabled="false"
-        android:focusableInTouchMode="true"
-        android:layout_gravity="center"
-        android:focusable="true" />
+        android:focusableInTouchMode="false"
+        android:layout_gravity="center" />
 
     <FrameLayout
         android:layout_width="match_parent"
